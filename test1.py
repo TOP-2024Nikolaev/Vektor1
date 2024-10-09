@@ -13,3 +13,4 @@ elif znak == "y":
 else:
     print("некорректные данные")
 
+print
