@@ -1,4 +1,4 @@
-string = input("Введите число и степень").split(" ")
+string = input("Введите число и степень: ").split(" ")
 number = int(string[0])
 
 stepen = int(string[1])
