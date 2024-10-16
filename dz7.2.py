@@ -1,9 +1,9 @@
 string = input().split(" ")
-
 begin = int(string[0])
 end = int(string[1])
-result = ""
+result = " "
+j = end
 for i in range(begin, end +1):
-    j = end + 1
+    j -= 2
     result += str(i) + " "
-    print(i)
+print(result)
