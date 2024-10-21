@@ -1,12 +1,14 @@
-string = input()
+string = input().split(" ")
+begin = int(string[0])
+end = int(string[1])
 result = ""
 for number in range(begin, end + 1):
     if number % 3 == 0 and number % 5 != 0:
         result += "Fizz" + str(number) + ", "
     if number % 5 ==0 and number % 3 !=0:
-        result +- "Buzz:" + str(number) + ", "
+        result += "Buzz:" + str(number) + ", "
     if number % 15 == 0:
-        result +- "Fizz Buzz:" + str(number) + ", "
+        result += "Fizz Buzz:" + str(number) + ", "
     else:
         result +="Число:" + str(number) + ","
-print(result)
+print(result.split(","))
