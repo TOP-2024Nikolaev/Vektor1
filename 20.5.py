@@ -1,3 +1,5 @@
-customers=['Bob', 'Anna', 'Joe', 'Boill', 'Nick']
-list2 = [i for i in customers if i!=customers[2]]
-print(list2)
+customers=[1, 7, 3, 2, 10]
+list2 = [i for i in customers]
+print(i)
+    result = i
+print(resut)
